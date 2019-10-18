@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="journal.css">
+    <link rel="stylesheet" href="/src/styles/journal.css">
 </head>
+
 <body>
+    <h1>Daily Journal!</h1>
     <form action="">
         <fieldset>
             <label for="journalDate">Date Of Entry</label>
             <input type="Date" name="journalDate" id="journalDate">
-        </fieldset>  
-    </form>
-    <form action="">
-        <fieldset>
-            <label for="conceptsCovered">Concepts Covered</label>
-            <textarea name="conceptsCovered" id="Concepts Covered" cols="20" rows="1"></textarea>
         </fieldset>
-    </form>
-    <form action="">
+
+
+        <fieldset>
+            <labelfor="conceptsCovered">Concepts Covered</label>
+                <input name="conceptsCovered" id="Concepts Covered" cols="20" rows="1"></input>
+        </fieldset>
+
         <fieldset>
             <label for="journalEntry">Journal Entry</label>
-            <select name="journalEntry" id="Joural Entry"></select>
+            <textarea name="journalEntry" id="Joural Entry"></textarea>
         </fieldset>
-    </form>
-    <form action="">
+
         <fieldset>
-            <select name="" id=""></select>
-            <option value="frustrated">Frustrated</option>
-            <option value="brainDead">Brain Dead</option>
-            <option value="motivated">Motivated</option>
-            <option value="positive">Positive</option>
-            <option value="negative">Negative</option>
+            <label for="moodOptions">Mood</label>
+            <select name=Mood id="mood">
+                <option value="frustrated">Frustrated</option>
+                <option value="brainDead">Brain Dead</option>
+                <option value="motivated">Motivated</option>
+                <option value="positive">Positive</option>
+                <option value="negative">Negative</option>
+                Mood
+            </select>
         </fieldset>
     </form>
+    <button>Record Journal Entry</button>
 </body>
+
 </html>
